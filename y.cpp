@@ -13,9 +13,11 @@ int main()
 		
 	char str[100];		
 
+	/*
 	file.open("Reader.txt", ios::in);
 	file.read(str,sizeof("abc\n"));
 	file.close(); 
+	*/
 	
 	file.open("g.txt", ios::in);
 	file.read(str,sizeof("123"));
