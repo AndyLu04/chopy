@@ -15,6 +15,8 @@ int main()
 
 	file.open("Reader.txt", ios::in);
 	file.read(str,sizeof("abc\n"));
+	file.close(); 
+	
 	cout << str << endl;
 	
 	return 0;
